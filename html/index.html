@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Login</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin-top:100px;
+            text-align: center;
+        }
+        .login-box{
+            display: inline-block;
+            padding: 30px;
+            background: white;
+            border: 1px solid white;
+            border-radius: 8px;
+        }
+        input{
+            margin: 10px 0;
+            padding: 10px;
+            width: 220px;
+            border: 1px solid white;
+            border-radius: 4px;
+        }
+        button{
+            padding: 10px20px;
+            background-color: blue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Area riservata</h2>
+        <from onsubmit="alert('Accesso andato a buon fine!'); return false;">
+            <div>
+                <label for="user">Username</label><br>
+                <input type="text" id="user" required>
+            </div>
+            <div>
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass" required>
+            </div><br>
+            <button type="submit">Accedi</button>
+        </from>
+</body>
+</html>

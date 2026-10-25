@@ -2,4 +2,4 @@
 
 prima modifica nel nuovo branch
 
-creazione conflitto 1
+creazione conflitto 2
